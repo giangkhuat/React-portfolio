@@ -9,36 +9,10 @@
   font: bolder;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 5em;
+#mainNav .nav-item a:active {
+  font: bold;
 }
-hr {
-  width: 400px;
-  border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(#000000, 0.2);
-}
-.card-img-top {
-  height: 250px;
-  width: 100%;
-  box-shadow: 0 10px 10px 0 rgba(#000000, 0.3);
-}
-#header {
-  color: black;
-  /*
-     background: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
-     */
-  background: #c6ffdd;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background-size: cover;
-}
-.card-header {
-  color: black;
-  text-align: center;
-  padding-top: 15px;
+.navbar-brand {
+  font-size: 1.5em;
 }

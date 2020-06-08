@@ -1,7 +1,7 @@
 import React from "react";
 
-function Container() {
-  return <div className="container"></div>;
+function Contain() {
+  return <div className="contain"></div>;
 }
 
-export default Container;
+export default Contain;

@@ -11,15 +11,6 @@ import Banner from "./components/Banner/Banner";
 import Container from "./components/Container/Container";
 
 function App() {
-  /*
-  <Route path="/education" exact>
-              <Experience />
-            </Route>
-
-            <Route path="/projects" exact>
-              <Projects />
-            </Route>
-  */
   return (
     <Router>
       <div className="App">

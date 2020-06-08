@@ -2,25 +2,12 @@ import React from "react";
 import Banner from "../Banner/Banner";
 import { Button, Card, Container, Row, Col } from "react-bootstrap";
 import { cardData } from "./AboutData";
-import GenericCard from "../GenericCard";
+import GenericCard from "../GenCard/GenericCard";
+import "./About.scss";
 
 function About() {
-  /*
-  {cardData.map(function (card) {
-            return (
-              <div>
-                <GenericCard
-                  title={card.title}
-                  imgSrc={card.imgSrc}
-                  text={card.text}
-                  id={card.id}
-                ></GenericCard>
-              </div>
-            );
-          })}
-   */
   return (
-    <div>
+    <div id="About">
       <Banner title="Giang Khuat Minh" quote="Nice to meet you !"></Banner>
       <Container>
         <Row className="justify-content ">

@@ -19,12 +19,6 @@ body {
   color: white;
 }
 
-.container {
-  border: 1px solid red;
-  width: 80%;
-  min-height: 800px;
-}
-
 h1 {
   font-weight: 700;
   font-size: 5em;
@@ -34,14 +28,21 @@ hr {
   border-top: 1px solid #f8f8f8;
   border-bottom: 1px solid rgba(#000000, 0.2);
 }
+
 .card-img-top {
-  height: 250px;
   width: 100%;
-  box-shadow: 0 10px 10px 0 rgba(#000000, 0.3);
+  height: 100%;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
 }
 
 .card-header {
   color: black;
   text-align: center;
   padding-top: 15px;
+}
+
+.Button {
+  background-color: burlywood;
+  background: black;
 }
