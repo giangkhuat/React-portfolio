@@ -1,4 +1,6 @@
 import React from "react";
+import Banner from "../Banner/Banner";
+import { Container } from "react-bootstrap";
 
 function Writing() {
   return (
@@ -8,16 +10,7 @@ function Writing() {
         title="Welcome to my Foodie world"
         quote="Nothing brings people together like food does:)"
       ></Banner>
-      <Container id="Cooking">
-        {foodData.map(function (item) {
-          return (
-            <div className="foodPic">
-              <img className="imgCook" src={item.imgSrc} />
-              <p>{item.name}</p>
-            </div>
-          );
-        })}
-      </Container>
+      <Container id="Cooking">})}</Container>
     </div>
   );
 }
