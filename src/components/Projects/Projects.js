@@ -44,27 +44,7 @@ A React application collecting feedback for companies
     },
   ];
   return (
-    /*
-    src={imgSrc}
-    <Link to={`/projects/${props.id}`}>
-                  <Button variant="primary">Explore</Button>
-                </Link>
-                <Card>
-              <Card.Img
-                className="blurb card-img-top"
-                id="project-card"
-                variant="top"
-                src={camp}
-              />
-              <Card.Body id="card-body">
-                <Card.Title>Hello</Card.Title>
-                <Card.Text>Hahhaa</Card.Text>
-                <Link to={`/projects/1`}>
-                  <Button variant="primary">Explore</Button>
-                </Link>
-              </Card.Body>
-            </Card>
-    */
+  
     <div id="Projects">
       <Banner title="Projects" quote="Nice to meet you !"></Banner>
       <Container>
@@ -72,10 +52,10 @@ A React application collecting feedback for companies
           {projectsData.map(function (card) {
             return (
               <div className="col-md-12 col-lg-4 mt-3 d-flex align-items-stretch">
-                <Card>
+                <Card className="project-card">
                   <Card.Img
                     className="blurb card-img-top"
-                    id="project-card"
+                    id="card-img"
                     variant="top"
                     src={card.imgSrc}
                   />

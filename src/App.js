@@ -7,8 +7,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Cooking from "./components/Cooking/Cooking";
 import Writing from "./components/Writing/Writing";
-import Banner from "./components/Banner/Banner";
-import Container from "./components/Container/Container";
+import ProjectInfo from "./components/Projects/ProjectInfo"
 
 function App() {
   return (
@@ -17,18 +16,16 @@ function App() {
         <NavBar />
 
         <Switch>
-          <Route path="/" exact>
-            <About />
+          <Route path="/" component={About} exact>
           </Route>
-          <Route path="/projects" exact>
-            <Projects />
+          <Route path="/projects" component={Projects}  exact>
           </Route>
-          <Route path="/cooking" exact>
-            <Cooking />
+          <Route path="/cooking" component={Cooking} exact>
           </Route>
-          <Route path="/writing" exact>
-            <Writing />
+          <Route path="/writing" component={Writing} exact>
           </Route>
+          <Route path="/projects/:id" component={ProjectInfo} >
+            </Route>
         </Switch>
       </div>
     </Router>

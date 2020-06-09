@@ -1,6 +1,7 @@
 import React from "react";
 import "./Banner.scss";
 
+
 function Banner(props) {
   /*
     <div className="icons">
@@ -20,6 +21,7 @@ function Banner(props) {
       <h1 className="display-3">{props.title}</h1>
       <p className="lead">{props.quote}</p>
       <div className="text-center"></div>
+      <img id="header-img" src={props.imgSrc}></img>
     </div>
   );
 }
