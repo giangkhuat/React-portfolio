@@ -1,4 +1,6 @@
 import React from "react";
+import { Container , Row, Col} from "react-bootstrap";
+import Banner from "../Banner/Banner";
 import food1 from "./foo1.jpg";
 import food2 from "./food2.jpg";
 import food3 from "./food3.jpg";
@@ -10,10 +12,46 @@ import food8 from "./food8.jpg";
 import food9 from "./food9.jpg";
 import food10 from "./food10.jpg";
 import "./Cooking.scss";
-import Banner from "../Banner/Banner";
-import { Container } from "react-bootstrap";
+
+
+
 
 function Cooking() {
+
+  /*
+  <Row>
+        <Col md={12} lg={4}>
+        {foodData.map(function (item) {
+          return (
+            <div className="foodPic">
+              <img className="imgCook" src={item.imgSrc} />
+              <p>{item.name}</p>
+            </div>
+          );
+        })}
+        </Col>
+        <Col md={12} lg={4}> 
+        {foodData.map(function (item) {
+          return (
+            <div className="foodPic">
+              <img className="imgCook" src={item.imgSrc} />
+              <p>{item.name}</p>
+            </div>
+          );
+        })}
+        </Col>
+        <Col md={12} lg={4}>
+        {foodData.map(function (item) {
+          return (
+            <div className="foodPic">
+              <img className="imgCook" src={item.imgSrc} />
+              <p>{item.name}</p>
+            </div>
+          );
+        })}
+        </Col>
+        </Row>
+  */
   const foodData = [
     {
       name: "Pork Cabbage Roll",

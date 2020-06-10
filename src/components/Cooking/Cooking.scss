@@ -9,11 +9,13 @@
   background-size: cover;
 }
 
+/*
 @media (max-width: 800px) {
   #Cooking {
     column-count: 1;
   }
 }
+*/
 
 .foodPic {
   background: white;
@@ -35,9 +37,11 @@
 }
 
 .imgCook:hover {
-  
+    text-shadow: 0 1px 8px rgba(0,0,0,.1);
   -moz-box-shawdow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
   
 }
+
+

@@ -8,16 +8,14 @@ function GenericCard(props) {
     <div>
       <Card>
         <Card.Img
-          className="blurb card-img-top"
+          className=" card-img-top"
           variant="top"
           src={props.imgSrc}
         />
         <Card.Body id="card-body">
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.text}</Card.Text>
-          <Link to={`/projects/${props.id}`}>
-            <Button variant="primary">Explore</Button>
-          </Link>
+          
         </Card.Body>
       </Card>
       <p></p>

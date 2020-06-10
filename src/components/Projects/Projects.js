@@ -43,6 +43,8 @@ A React application collecting feedback for companies
       id: "8",
     },
   ];
+
+
   return (
   
     <div id="Projects">
@@ -52,24 +54,25 @@ A React application collecting feedback for companies
           {projectsData.map(function (card) {
             return (
               <div className="col-md-12 col-lg-4 mt-3 d-flex align-items-stretch">
+                <Link id="link" to={`/projects/${card.id}`}>
                 <Card className="project-card">
                   <Card.Img
-                    className="blurb card-img-top"
-                    id="card-img"
+                    className="card-img-top"
                     variant="top"
+                    id="card-img"
                     src={card.imgSrc}
                   />
                   <Card.Body id="card-body">
                     <Card.Title>{card.title}</Card.Title>
                     <Card.Text>{card.text}</Card.Text>
-                    <Link to={`/projects/${card.id}`}>
-                      <Button variant="primary">Explore</Button>
-                    </Link>
                   </Card.Body>
                 </Card>
+                    </Link>
               </div>
             );
           })}
+
+
         </Row>
       </Container>
     </div>
