@@ -8,7 +8,11 @@ function Banner(props) {
     <div id="header" style={props.style} className="jumbotron text-center">
       
       <div className="header-info"> 
-      <h1 className="display-3">{props.title}</h1>
+      <h1 className="display-3">
+        <a href={props.link} id="banner-link">
+        {props.title}
+        </a>
+        </h1>
       <p className="lead">{props.quote}</p>
       <div className="text-center"></div>
       </div>

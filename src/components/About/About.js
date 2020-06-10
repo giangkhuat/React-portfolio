@@ -9,7 +9,7 @@ function About() {
 
   return (
     <div id="About">
-      <Banner title="Giang Khuat Minh" quote="Nice to meet you !"></Banner>
+      <Banner link="/" title="Giang Khuat Minh" quote="Nice to meet you !"></Banner>
       <Container>
         <Row className="justify-content ">
           {cardData.map(function (item) {

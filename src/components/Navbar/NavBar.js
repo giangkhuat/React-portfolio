@@ -47,9 +47,10 @@ function NavBar() {
                 </a>
             </div>
   
+            <NavItem item="Writing" toLink="/writing"></NavItem>
     */
   return (
-    <div>
+    <div id="navBackground"> 
       <nav
         id="mainNav"
         className="navbar navbar-dark bg-dark navbar-fixed-top navbar-expand-lg "
@@ -73,7 +74,7 @@ function NavBar() {
             <NavItem item="About" toLink="/"></NavItem>
             <NavItem item="Projects" toLink="/projects"></NavItem>
             <NavItem item="Cooking" toLink="/cooking"></NavItem>
-            <NavItem item="Writing" toLink="/writing"></NavItem>
+            
           </ul>
         </div>
         <Social/>
